@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+.container
+{
+    width: 60%;
+    min-height: 100px;
+    margin: auto;
+    border: 1px solid #000;
+    /* background-image:url('../Img/img.avif') */
+}
+.clearfix ::after{
+    content:"";
+    display: block;
+    clear: both;
+}
